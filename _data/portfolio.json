@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Professional Projects & Products",
+    "items": [
+      {
+        "text": "BridgeU - Current",
+        "link": "https://bridge-u.com/features/"
+      },
+      {
+        "text": "EDF Energy Alexa Skill - EDF Energy - 2016",
+        "link": "https://www.amazon.co.uk/EDF-Energy/dp/B01LXLV7VO"
+      },
+      {
+        "text": "Oswego County News Alexa Skill - Alex Nicol LTD x Bounce Tech. - 2021",
+        "link": "https://www.amazon.com/Alexandre-Nicol-Oswego-Local-News/dp/B09DVZHHVC"
+      },
+      {
+        "text": "Text Compare - Bounce Tech. - 2021",
+        "link": "https://www.textcompareapp.com/?ref=alexnicolltd"
+      },
+      {
+        "text": "Font Smoothing Adjuster - Bounce Tech. - 2021",
+        "link": "https://www.fontsmoothingadjuster.com/?ref=alexnicolltd"
+      },
+      {
+        "text": "Brighton & Hove buses Alexa Skill - Freelance - 2016",
+        "link": "https://www.amazon.co.uk/Alexandre-Nicol-Seagulls-Buses/dp/B01N2UF9BK"
+      }
+    ]
+  },
+  {
+    "name": "Talks",
+    "items": [
+      {
+        "text": "From Experimentation to Production: The Key Learnings of Raising Chatbots - 3rd World Chatbot Summit - 2021",
+        "link": "https://www.youtube.com/watch?v=9buKwI-zxWA"
+      },
+      {
+        "text": "Building an in-house R&D to Push Boundaries for Voice Systems - 2nd World Voice Innovation Summit - 2020"
+      },
+      {
+        "text": "Building Apps for Alexa - Brighton Web Dev Meetup - 2019",
+        "link": "https://bwdm2019.webnicol.fr/"
+      },
+      {
+        "text": "TechNova: Voice - 2019"
+      },
+      {
+        "text": "Retour sur 3 années à developper des bots ! (video) - DevFest du bout du monde (Brest, Fr) - 2019",
+        "link": "https://www.youtube.com/watch?v=vcVttSm3e8k"
+      },
+      {
+        "text": "How To Innovate Like A Startup When You Are A Multinational (video) - Brighton Devops, Test, Dev Meetup - 2018",
+        "link": "https://www.youtube.com/watch?v=CAFny-2QXbA"
+      },
+      {
+        "text": "The Voice Technology Revolution (video) - Technova's live webinar - 2018",
+        "link": "https://marketforce.wavecast.io/technova/readying-the-voice-technology-revolution"
+      },
+      {
+        "text": "VUI Introduction - Brest.js (Brest, Fr) - 2018",
+        "link": "https://voice2018.webnicol.fr/"
+      },
+      {
+        "text": "Chatbots 101 - Brighton Web Dev Meetup - 2018",
+        "link": "https://bot2018.webnicol.fr/"
+      },
+      {
+        "text": "Get The Energy Talking London Alexa Devs Meetup - 2017",
+        "link": "https://www.meetup.com/London-Alexa-Devs/events/239181169/"
+      },
+      {
+        "text": "The Rise of The Bots - Async (Brighton) - 2017",
+        "link": "https://riseofthebots.webnicol.fr/"
+      }
+    ]
+  },
+  {
+    "name": "Articles",
+    "items": [
+      {
+        "text": "Is there any good in Tech? - 2019",
+        "link": "https://medium.com/@nicol_alexandre/is-there-any-good-in-tech-24e92102128c"
+      },
+      {
+        "text": "Chatbots: 3 years on, what have we learnt? - EDF Energy - 2018",
+        "link": "https://www.edfenergy.com/about/energy-innovation/innovation-blog/research-development-chatbots-lessons-learned"
+      },
+      {
+        "text": "Bringing chatbots to our business - EDF Energy - 2018",
+        "link": "https://www.edfenergy.com/about/energy-innovation/innovation-blog/research-development-chatbots"
+      },
+      {
+        "text": "A Beginner's Guide to Chatbots and Conversational Interfaces - for Heart Internet - 2017 - Published by @oliverlindberg",
+        "link": "https://www.heartinternet.uk/blog/beginners-guide-chatbots-conversational-interfaces/"
+      },
+      {
+        "text": "Dites bonjour aux bots ! - 2016 (French)",
+        "link": "https://medium.com/@nicol_alexandre/dites-bonjour-aux-bots-f6afd4b68e2d"
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "items": [
+      {
+        "text": "Food Diary iOS App (Freelance: 2022)",
+        "link": "https://github.com/alexandrenicol/food-diary-ios"
+      },
+      {
+        "text": "JavaScript AWS Lambda Router (Freelance: 2017)",
+        "link": "https://alexandrenicol.github.io/aws-lambda-router-wn/"
+      },
+      {
+        "text": "Le Marchand de Glace (Concept: 2017)",
+        "link": "https://github.com/alexandrenicol/lemarchanddeglace"
+      },
+      {
+        "text": "Requemise (Freelance: 2016)",
+        "link": "https://github.com/alexandrenicol/requemise"
+      }
+    ]
+  }
+]

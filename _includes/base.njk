@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/static/css/normalize.css/normalize.css">
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="/static/css/milligram/milligram.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="container">
+        {{ content | safe }}
+    </div>
+    <div id="elm-app"></div>
+    <footer><small>Made with &#9829; by Alex Nicol, using Eleventy, Sass, Milligram, and Elm, hosted on Netlify.</small></footer>
+    <script src="/static/js/index.js"></script>
+    <script>
+
+    var darkModeFromLocalStorage = localStorage.getItem('darkMode');
+
+    var darkModeEnabled = undefined;
+    if (darkModeFromLocalStorage === null) {
+        darkModeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches
+    } else {
+        darkModeEnabled = JSON.parse(darkModeFromLocalStorage)
+    }
+
+    if (darkModeEnabled) {
+        document.body.classList.add('dark');
+    }
+
+    var app = Elm.Index.Main.init({
+        node: document.getElementById('elm-app'),
+        flags: {
+            darkModeEnabled,
+        }
+    });
+
+    app.ports.toggleDarkMode.subscribe(function(darkModeEnabled) {
+        if (darkModeEnabled) {
+            document.body.classList.add('dark');
+            localStorage.setItem('darkMode', true);
+        } else {
+            document.body.classList.remove('dark');
+            localStorage.setItem('darkMode', false);
+
+        }
+    });
+    </script>
+  </body>
+</html>

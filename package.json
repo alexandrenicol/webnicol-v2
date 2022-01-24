@@ -1,0 +1,37 @@
+{
+  "name": "alexnicol.ltd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "milligram": "^1.4.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "npm-watch": "^0.11.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.47.0"
+  },
+  "watch": {
+    "elm-dev": {
+      "patterns": [
+        "_elm/**/"
+      ],
+      "extensions": "elm",
+      "ignore": "node_modules"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "npx sass --watch _scss/source/style.scss _scss/dist/style.css",
+    "sass": "npx sass _scss/source/style.scss _scss/dist/style.css",
+    "serve": "npx eleventy --serve",
+    "elm-dev": "elm make _elm/Index/Main.elm --output _js/index.js --debug",
+    "elm-build": "elm make _elm/Index/Main.elm --output _js/index.js --optimize",
+    "elm-watch": "npx npm-watch elm-dev",
+    "build": "npm run sass && npm run elm-build && npx eleventy"
+  },
+  "author": "",
+  "license": "ISC"
+}
