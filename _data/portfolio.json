@@ -104,19 +104,27 @@
     "name": "Others",
     "items": [
       {
-        "text": "Food Diary iOS App (Freelance: 2022)",
+        "text": "Food Diary iOS App",
         "link": "https://github.com/alexandrenicol/food-diary-ios"
       },
       {
-        "text": "JavaScript AWS Lambda Router (Freelance: 2017)",
+        "text": "This website",
+        "link": "https://github.com/alexandrenicol/alexnicol.ltd"
+      },
+      {
+        "text": "The previous version of this website",
+        "link": "https://github.com/alexandrenicol/webnicol.fr"
+      },
+      {
+        "text": "JavaScript AWS Lambda Router",
         "link": "https://alexandrenicol.github.io/aws-lambda-router-wn/"
       },
       {
-        "text": "Le Marchand de Glace (Concept: 2017)",
+        "text": "Le Marchand de Glace",
         "link": "https://github.com/alexandrenicol/lemarchanddeglace"
       },
       {
-        "text": "Requemise (Freelance: 2016)",
+        "text": "Requemise",
         "link": "https://github.com/alexandrenicol/requemise"
       }
     ]
