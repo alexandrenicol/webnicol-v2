@@ -30,7 +30,7 @@
     "elm-dev": "elm make _elm/Index/Main.elm --output _js/index.js --debug",
     "elm-build": "elm make _elm/Index/Main.elm --output _js/index.js --optimize",
     "elm-watch": "npx npm-watch elm-dev",
-    "build": "npm run sass && npm run elm-build && npx eleventy"
+    "build": "npm run sass && npx eleventy"
   },
   "author": "",
   "license": "ISC"
