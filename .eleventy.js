@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
 
   // Copy `img/` to `_site/img`
   eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy({"fonts": "static/fonts"});
 
   eleventyConfig.addPassthroughCopy({
     "node_modules/normalize.css/": "static/css/normalize.css/",

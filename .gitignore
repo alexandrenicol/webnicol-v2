@@ -2,3 +2,4 @@ node_modules
 elm-stuff
 _scss/dist/
 _site
+.DS_Store

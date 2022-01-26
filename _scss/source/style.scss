@@ -12,6 +12,37 @@
   box-sizing: border-box;
 }
 
+/* Typography */
+
+@font-face {
+  font-family: "VarelaRound";
+  src: url("/static/fonts/VarelaRound-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "VarelaRound", Roboto, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+/* Utilities */
+
+.text-center {
+  text-align: center;
+}
+
+/* Layout helpers */
+
 .layout {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -20,6 +51,8 @@
     justify-content: center;
   }
 }
+
+/* Base skeleton & colours */
 
 body {
   min-height: 100vh;
@@ -46,11 +79,13 @@ body {
       transform: translateZ(0);
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--link);
     }
 
-    &:hover::after {
+    &:hover::after,
+    &:focus::after {
       left: 0;
       right: 0;
     }
@@ -65,6 +100,8 @@ footer {
   text-align: center;
 }
 
+/* Dark mode */
+
 .dark {
   background-color: var(--dark-background);
   color: var(--dark-font);
@@ -78,9 +115,13 @@ footer {
   }
 }
 
-.text-center {
-  text-align: center;
+#darkModeToggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
 }
+
+/* Responsiveness */
 
 @media (max-width: 60rem) and (min-width: 40rem) {
   .row .column.column-60 {
@@ -96,16 +137,12 @@ footer {
   }
 }
 
+/* Custom things */
+
 .logo-link {
   margin-left: 1rem;
   img {
     height: 2rem;
     width: auto;
   }
-}
-
-#darkModeToggle {
-  position: fixed;
-  top: 1em;
-  right: 1em;
 }
