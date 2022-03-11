@@ -3,7 +3,7 @@
     "name": "Professional Projects & Products",
     "items": [
       {
-        "text": "BridgeU - Current",
+        "text": "BridgeU - Since 2021",
         "link": "https://bridge-u.com/features/"
       },
       {
@@ -11,19 +11,27 @@
         "link": "https://www.amazon.co.uk/EDF-Energy/dp/B01LXLV7VO"
       },
       {
-        "text": "Oswego County News Alexa Skill - Alex Nicol LTD x Bounce Tech. - 2021",
+        "text": "Oswego County News Alexa Skill - Alex Nicol LTD x Bounce Tech. - Since 2021",
         "link": "https://www.amazon.com/Alexandre-Nicol-Oswego-Local-News/dp/B09DVZHHVC"
       },
       {
-        "text": "Text Compare - Bounce Tech. - 2021",
+        "text": "Changewatch - Bounce Tech. - 2022",
+        "link": "https://changewatch.co.uk/?ref=alexnicolltd"
+      },
+      {
+        "text": "Text Compare - Bounce Tech. - Since 2021",
         "link": "https://www.textcompareapp.com/?ref=alexnicolltd"
       },
       {
-        "text": "Font Smoothing Adjuster - Bounce Tech. - 2021",
+        "text": "Font Smoothing Adjuster - Bounce Tech. - Since 2021",
         "link": "https://www.fontsmoothingadjuster.com/?ref=alexnicolltd"
       },
       {
-        "text": "Brighton & Hove buses Alexa Skill - Freelance - 2016",
+        "text": "Jobsocks, via Bounce Tech. - Since 2019",
+        "link": "https://www.jobsocks.com//?ref=alexnicolltd"
+      },
+      {
+        "text": "Brighton & Hove buses Alexa Skill - Freelance - Since 2016",
         "link": "https://www.amazon.co.uk/Alexandre-Nicol-Seagulls-Buses/dp/B01N2UF9BK"
       }
     ]
