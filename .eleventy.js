@@ -15,6 +15,9 @@ module.exports = function (eleventyConfig) {
     "_scss/dist": "static/css/",
   });
   eleventyConfig.addPassthroughCopy({
+    "AN-CV-2021.pdf": "static/files/AN-CV-2021.pdf",
+  });
+  eleventyConfig.addPassthroughCopy({
     _js: "static/js/",
   });
 };
