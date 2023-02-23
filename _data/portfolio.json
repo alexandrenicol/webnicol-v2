@@ -40,8 +40,14 @@
     "name": "Talks",
     "items": [
       {
-        "text": "From Experimentation to Production: The Key Learnings of Raising Chatbots - 3rd World Chatbot Summit - 2021",
-        "link": "https://www.youtube.com/watch?v=9buKwI-zxWA"
+        "text": "Alexa to the rescue of inaccessible websites - Async (Brighton) - 2023",
+        "link": "https://www.youtube.com/watch?v=uJwvY0K6TkY"
+      },
+      {
+        "text": "Alexa to the rescue of inaccessible websites - London Alexa Devs - 2022"
+      },
+      {
+        "text": "From Experimentation to Production: The Key Learnings of Raising Chatbots - 3rd World Chatbot Summit - 2021"
       },
       {
         "text": "Building an in-house R&D to Push Boundaries for Voice Systems - 2nd World Voice Innovation Summit - 2020"
