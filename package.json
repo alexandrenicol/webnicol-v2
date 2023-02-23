@@ -8,7 +8,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.0",
     "npm-watch": "^0.11.0",
     "prettier": "^2.5.1",
     "sass": "^1.47.0"
